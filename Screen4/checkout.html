@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Select Payment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <div class="mobile-screen">
+        <div class="header">
+            <div class="back-icon" onclick="goBack()">< Back</div>
+            <div class="logo-header">
+                <h1 class="title">TECS</h1>
+                <p class="tag">BUSINESS</p>
+            </div>
+            <h1></h1>
+        </div>
+        <div class="checkout-amount-container">
+            <p class="p-head">Payment</p>
+            <div class="checkout-sub-container">
+                <p class="p-head2">Total amount to pay</p>
+                <h2 class="checkout-amount" id="checkout-amount">₱ 0.00</h2>
+            </div>
+            <div class="qr-sample">
+                <p>Scan to Pay</p>
+                <img src=".././images/qr.png" alt="QR" />
+                <button class="comp-btn">Complete Transaction</button>
+            </div>
+        </div>
+
+      
+    </div>
+
+    <script src="checkout.js"></script>
+
+    <div class="loader-overlay" id="loader-overlay">
+        <div class="loader"></div>
+        <p>Processing...</p>
+    </div>
+</body>
+</html>

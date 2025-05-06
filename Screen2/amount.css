@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .mobile-screen {
+    width: 375px;
+    height: 667px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #1c0b5d;
+  }
+
+  .logo-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+  
+  .title-row {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1c0b5d;
+    line-height: 1; 
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .tag {
+    background-color: #1c0b5d;
+    color: #28e0ae;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    height: 18px; 
+  }
+  
+  /* Text */
+  .subtitle {
+    text-align: center;
+    color: #4b1ba8;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .instruction {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  /* Grid of payment logos */
+  .payment-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    justify-items: center;
+  }
+  
+  .payment-grid img {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  

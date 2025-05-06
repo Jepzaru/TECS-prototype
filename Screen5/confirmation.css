@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.mobile-screen {
+    width: 375px;
+    height: 667px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.back-icon {
+    font-size: 16px;
+    cursor: pointer;
+    color: #1c0b5d;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1c0b5d;
+    line-height: 1; 
+    margin: 0;
+    margin-right: 10px;
+}   
+
+.tag {
+    background-color: #1c0b5d;
+    color: #28e0ae;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    height: 18px; 
+}
+
+.confirmation-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.check-icon{
+    font-size: 42px;
+    color: #28e0ae;
+}
+
+.payment-label{
+    font-size: 20px;
+    color: #533B9A;
+}
+
+.confirmation-details{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.details-container{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.ref-details{
+    font-size: 14px;
+    color: #8B8B8B;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-btn{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #1c0b5d;
+    color: #28e0ae;
+    padding: 15px 35px;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Select Payment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <div class="mobile-screen">
+        <div class="header">
+            <div class="back-icon" onclick="goBack()">< Back</div>
+            <div class="logo-header">
+                <h1 class="title">TECS</h1>
+                <p class="tag">BUSINESS</p>
+            </div>
+            <h1></h1>
+        </div>
+
+        <div class="input-container">
+            <p>Input Amount</p>
+            <h1 id="amount-display">₱ 0.00</h1>
+        </div>
+
+        <div class="numpad">
+            <button class="num-btn">1</button>
+            <button class="num-btn">2</button>
+            <button class="num-btn">3</button>
+            <button class="num-btn delete-btn">
+                <i class="fa-solid fa-delete-left" style="color: #533B9A"></i>
+            </button>
+            
+            <button class="num-btn">4</button>
+            <button class="num-btn">5</button>
+            <button class="num-btn">6</button>
+            <button class="num-btn clear-btn">AC</button>
+
+            
+            <button class="num-btn">7</button>
+            <button class="num-btn">8</button>
+            <button class="num-btn">9</button>
+            <div class="vertical-operators" id="proceed-btn" tabindex="0" role="button">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>PROCEED</p>
+            </div>
+            
+            <button class="num-btn">00</button>
+            <button class="num-btn">0</button>
+            <button class="num-btn">000</button>
+            
+        </div>  
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>
